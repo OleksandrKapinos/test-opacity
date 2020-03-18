@@ -23,8 +23,6 @@ main.onmousemove = function (event) {
 
     ball.style.left = ballCoords.left + 'px';
     ball.style.top = ballCoords.top + 'px';
-
-    console.log(event.clientX, event.clientY);
 };
 
 
