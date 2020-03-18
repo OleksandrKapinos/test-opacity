@@ -1,5 +1,5 @@
 .main-block {
-    width: 91%;
+    width: 90%;
     position: relative;
     background: white;
     border: darkslateblue solid 2px;
@@ -22,16 +22,16 @@
     z-index: 3;
     font-family: "Californian FB", fantasy;
     font-size: 130%;
-    position: fixed;
+    position: absolute;
     margin-top: 10rem;
-    margin-left: 65%;
+    margin-left: 70%;
     color: darkslateblue;
 }
 
 div[class^='block-'] {
     display: inline-block;
-    position: fixed;
-    width: 30%;
+    position: absolute;
+    width: 33.33%;
     height: 20rem;
     background-color: darkslateblue;
 }
@@ -45,17 +45,13 @@ div[class^='block-'] {
 .block-1 {
     opacity: 50%;
     z-index: 3;
-    margin-left: 30%;
+    margin-left: 33.33%;
 }
 
 .block-2 {
     opacity: 100%;
     z-index: 1;
-    margin-left: 60%;
+    margin-left: 66.66%;
     float: left;
     width: 30rem;
 }
-
-
-
-
