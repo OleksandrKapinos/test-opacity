@@ -1,3 +1,4 @@
+"use strict";
 let main = document.querySelector(".main-block");
 let ball = document.querySelector(".ball");
 let mainCoords = main.getBoundingClientRect();
